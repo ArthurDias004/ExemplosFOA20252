@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.Design;
+﻿using ConceitosBasicos.uteis;
+using System.ComponentModel.Design;
 /*
 byte idade ;
 string nome = "";
@@ -14,7 +15,7 @@ Console.WriteLine(($"A nova idade é {++idade}");// 42
 // Altere o programa para que solicite ao usuario informar o seu salario
 //e ao final informe desconto de IRPF de acordo com o salario informado.
 //utilize a tabela oficial de descontos de IRPF do Brasil
-
+/*
 try
 {
     decimal salario, irpfDevido;
@@ -43,6 +44,14 @@ catch (Exception e)
 {
 
 }
+*/
+using ConceitosBasicos.uteis;
 
-    
+somaDoisNumeros somaDoisNumeros = new somaDoisNumeros
+    ();
+int result; 
+result = somaDoisNumeros.somar(20, 22);
+Console.WriteLine (result);
+
+
 
