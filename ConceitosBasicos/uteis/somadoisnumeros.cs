@@ -6,11 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConceitosBasicos.uteis
 {
-    public class somaDoisNumeros
-    {
-        public int somar(int n1, int n2) 
+    public class MetrosMilimetros;
+    
+        public static double converter(double metros)
         {
+        
+        return metros + 1000;
+        }
+         
     }
-        return n1 + n2
 
 }
